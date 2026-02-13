@@ -1,0 +1,21 @@
+
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 3 modules transformed.
+[31mx[39m Build failed in 572ms
+[31merror during build:
+[31m[vite-plugin-pwa:build] [postcss] tailwindcssAnimate is not defined[31m
+file: [36mC:/Users/Deekshith J/Downloads/sevapali-main/sevapali-main/src/index.css:undefined:NaN[31m
+    at C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\tailwind.config.ts:129:13
+    at evalModule (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\jiti\dist\jiti.js:1:247313)
+    at jiti (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\jiti\dist\jiti.js:1:245241)
+    at C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\lib\load-config.js:52:26
+    at loadConfig (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\lib\load-config.js:62:6)
+    at getTailwindConfig (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\lib\setupTrackingContext.js:71:116)
+    at C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\lib\setupTrackingContext.js:100:92
+    at C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\processTailwindFeatures.js:46:11
+    at plugins (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\tailwindcss\lib\plugin.js:38:69)
+    at LazyResult.runOnRoot (C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\node_modules\postcss\lib\lazy-result.js:361:16)[39m

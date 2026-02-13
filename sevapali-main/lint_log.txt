@@ -1,0 +1,125 @@
+
+> vite_react_shadcn_ts@0.0.0 lint
+> eslint .
+
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\chat\ChatbotWidget.tsx
+  102:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  148:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\landing\HeroSection.tsx
+  120:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  135:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  148:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  163:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\layout\OfficialLayout.tsx
+  57:55  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  77:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\badge.tsx
+  34:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\button.tsx
+  58:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\command.tsx
+  24:11  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\form.tsx
+  129:10  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\navigation-menu.tsx
+  111:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\sidebar.tsx
+  636:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\sonner.tsx
+  27:19  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\textarea.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\components\ui\toggle.tsx
+  37:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\contexts\AuthContext.tsx
+  208:7   error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free             @typescript-eslint/ban-ts-comment
+  216:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\contexts\LanguageContext.tsx
+  38:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\hooks\useAI.ts
+  145:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\hooks\useTokens.ts
+  202:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  264:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\Feedback.tsx
+  58:6  warning  React Hook useEffect has a missing dependency: 'fetchFeedback'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\Login.tsx
+  48:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\OfficialLogin.tsx
+  38:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\OfficialRegister.tsx
+  44:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\Register.tsx
+  48:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\citizen\BookToken.tsx
+   60:52  error  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+   83:16  error  'min' is never reassigned. Use 'const' instead  prefer-const
+  149:21  error  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+  175:12  error  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+  191:21  error  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\official\Analytics.tsx
+   34:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   44:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   51:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   54:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  104:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  110:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\official\ScanPage.tsx
+   19:54  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   26:26  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   54:44  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   56:40  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   74:78  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   77:8   warning  React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   97:25  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  132:88  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\pages\official\VerificationPage.tsx
+   95:88   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   99:88   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  121:101  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\src\services\ai.ts
+   72:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  140:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  182:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\supabase\functions\analyze-document\index.ts
+  78:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\supabase\functions\chat\index.ts
+  55:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\supabase\functions\handle-voice-query\index.ts
+  100:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Deekshith J\Downloads\sevapali-main\sevapali-main\tailwind.config.ts
+  129:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 57 problems (46 errors, 11 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+

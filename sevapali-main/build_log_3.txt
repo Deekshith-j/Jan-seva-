@@ -1,0 +1,36 @@
+
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 3449 modules transformed.
+[33mwarnings when minifying css:
+▲ [WARNING] Comments in CSS use "/* ... */" instead of "//" [js-comment-in-css]
+
+    <stdin>:2514:106:
+      2514 │ ...ewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg f...
+           ╵                                  ~~
+
+[39m
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mregisterSW.js              [39m[1m[2m    0.13 kB[22m[1m[22m
+[2mdist/[22m[32mmanifest.webmanifest       [39m[1m[2m    0.58 kB[22m[1m[22m
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    1.25 kB[22m[1m[22m[2m │ gzip:   0.53 kB[22m
+[2mdist/[22m[35massets/index-DDW4oExQ.css  [39m[1m[2m   92.96 kB[22m[1m[22m[2m │ gzip:  15.43 kB[22m
+[2mdist/[22m[36massets/index-BGjFw7Es.js   [39m[1m[2m  334.69 kB[22m[1m[22m[2m │ gzip: 100.02 kB[22m
+[2mdist/[22m[36massets/index-CgOfkddc.js   [39m[1m[33m1,259.75 kB[39m[22m[2m │ gzip: 356.76 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 8.91s[39m
+
+PWA v1.2.0
+mode      generateSW
+precache  7 entries (1668.31 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-8c29f6e4.js
